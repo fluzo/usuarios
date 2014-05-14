@@ -1,6 +1,7 @@
 {
     "name": "fluzo/usuarios",
-    "description": "",
+    "description": "Gestión de usuarios y login para Laravel 4.",
+    "keywords": ["laravel", "usuarios", "login"],
     "authors": [
         {
             "name": "Javi",
