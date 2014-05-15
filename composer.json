@@ -2,6 +2,7 @@
     "name": "fluzo/usuarios",
     "description": "Gestión de usuarios y login para Laravel 4.",
     "keywords": ["laravel", "usuarios", "login"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Javi",
