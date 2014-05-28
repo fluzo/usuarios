@@ -15,8 +15,7 @@ class LoginController extends BaseController
         $password = Input::get('password');        
         if (Auth::attempt(array('usuario' => $usuario, 'password' => $password)))
         {
-            //return Redirect::intended();
-            return Redirect::to('admin');
+            return Redirect::intended('/');            
         }
         return Redirect::to('login')->with('errores','Usuario o password incorrectos.')->withInput();
     }
